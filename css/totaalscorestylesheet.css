@@ -1,0 +1,27 @@
+.textinsidecircle-ts {
+    font-size: 50px;
+}
+
+.textinsidecirclebottom-ts {
+    font-size: 13px;
+}
+
+
+/*
+.arc-ts {
+    stroke: grey;
+    stroke-opacity: 0.3;
+    stroke-width: 1px;
+}
+*/
+
+/*
+.arc-ts:hover {
+    fill-opacity: 1.0;
+}*/
+
+.tooltip-donut-text{
+    font-size: 12px;
+    fill: grey;
+    opacity: 0.90;
+}

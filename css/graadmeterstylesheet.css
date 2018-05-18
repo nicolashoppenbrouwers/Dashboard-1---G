@@ -1,0 +1,39 @@
+.graadmeter-rect {
+    opacity: 0.8;
+    stroke: grey;
+    stroke-width: 0px;
+}
+
+.graadmeter-rect-text {
+    font-family: century gothic;
+    font-size: 9px;
+    letter-spacing: 0.60px;
+    fill: grey;
+    opacity: 0.80;
+}
+
+.graadmeter-rect-big-text {
+    font-family: century gothic;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.60px;
+    fill: grey;
+    opacity: 0.80;
+}
+
+.graadmeter-text {
+    font-family: century gothic;
+    font-size: 10px;
+    fill: grey;
+}
+
+.graadmeter-vertline{
+    stroke: grey;
+    stroke-width: 2;
+}
+
+.graadmeter-triangle{
+    stroke: grey;
+    stroke-width: 2;
+    fill: grey;
+}

@@ -1,0 +1,36 @@
+.node {
+    cursor: pointer;
+}
+
+.node circle {
+    fill: #fff;
+    stroke-width: 3px;
+}
+
+
+.nodeText {
+    fill: grey;
+    font-size: 13px;
+}
+
+.nodeTextNumberBig {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.nodeTextNumberSmall {
+    font-size: 16px;
+}
+
+.link {
+    fill: none;
+}
+
+.linkText {
+    font-size: 100px;
+}
+
+.txtLegend-StroomDiagramma{
+    font-size: 10px;
+}

@@ -1,0 +1,147 @@
+/* TEXT FORMATTING */ 
+body {
+    font: 12px "century gothic";
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#bodylayer{
+    text-indent: 85px;
+}
+
+/* CAB BE REMOVED
+h1 {
+    font-size: 30px;
+    color: grey;
+    letter-spacing: 0px;
+    text-indent: 85px;
+    text-align: center;
+    text-transform: uppercase;
+    background: ghostwhite;
+    top: 0;
+    margin: 0;
+}
+
+
+h2 {
+    font-size: 20px;
+    color: "grey";
+    opacity: 0.50;
+}
+
+p {
+    font-size: 14px;
+    color: "grey";
+    opacity: 0.50;
+}
+*/
+/* TITLE ON TOP */
+#titlelayer{
+    background: ghostwhite;
+}
+
+#titlelayer-h1{
+    font-size: 30px;
+    fill: grey;
+    text-transform: uppercase;
+}
+
+#titlelayer-p{
+    font-size: 15px;
+    fill: lightgrey;
+    text-align: center;
+}
+
+#titlelayer-line{
+    stroke-width: 5;
+    stroke: grey;
+    
+}
+
+/*VERTICAL LINE in middle of DASHBOARD*/
+#global-vertical-line{
+    stroke: lightgrey;  
+    stroke-width: 1;
+    opacity: 0.80;
+}
+
+
+
+/* GRAPH TITLES */ 
+.graphtitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: "grey";
+    opacity: 0.50;
+    text-indent: -10px;
+    text-transform: uppercase;
+}
+
+.graphexplanation {
+    font-size: 14px;
+    color: "grey";
+    opacity: 0.50;
+}
+
+/* TOOLTIP */ 
+.d3-tip {
+    text-indent: 0px;
+    line-height: 1;
+    padding: 12px;
+    background: ghostwhite;
+    opacity: 0.8;
+    color: grey;
+    border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: ghostwhite;
+    opacity: 0.8;
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+/* SELFMADE-TOOLTIP */
+.tooltip-background {
+    fill: ghostwhite;
+    opacity: 0.975; 
+    color: #fff;
+}
+
+.tooltip-text-h1 {
+    text-indent: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    fill: grey;
+}
+
+.tooltip-text {
+    text-indent: 10px;
+    font-size: 12px;
+    fill: grey;
+    opacity: 0.80;
+}
+
+.tooltip-note {
+    text-indent: 10px;
+    font-size: 9px;
+/*    font-style: italic;*/
+    fill: grey;
+    opacity: 0.80;
+}
+

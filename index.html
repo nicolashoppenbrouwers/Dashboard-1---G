@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.ijkingstoets.be/img/logo-ijkingstoets-small.png">
+    <head>
+        <title>Dashboard ijkingstoets</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="css/scorepervraagstylesheet.css">
+        <link rel="stylesheet" type="text/css" href="css/scorepercategoriestylesheet.css">
+        <link rel="stylesheet" type="text/css" href="css/totaalscorestylesheet.css">
+        <link rel="stylesheet" type="text/css" href="css/typischstudietrajectstylesheet.css">
+        <link rel="stylesheet" type="text/css" href="css/graadmeterstylesheet.css">
+        <link rel="stylesheet" type="text/css" href="css/helpstylesheet.css">
+        <link rel="stylesheet" type="text/css" href="css/histogramkleurenbars.css">
+        <script src="http://d3js.org/d3.v3.js"></script>
+        <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    </head>
+    <body>
+        <!-- tracking -->
+        <script src='//cdn.freshmarketer.com/225644/794134.js'></script>
+
+        <!-- INIT dashboard -->
+        <script type="text/javascript" src="dashboard-generaldata.js"></script>
+        <script type="text/javascript" src="dashboard-initialisation.js"></script>
+        <script type="text/javascript" src="title.js"></script>
+        <script type="text/javascript" src="help.js"></script>
+        <script type="text/javascript" src="js-tooltips/graadmeter.js"></script>
+        
+        <!-- code GRAPHs -->
+        <script type="text/javascript" src="js-graphs/totaalscore.js"></script>
+        <!--        TODO remove-->
+        <div id="tooltip" class="hidden">
+            <p><span id="value"></p>
+        </div>
+        <script type="text/javascript" src="js-graphs/typischstudietraject.js"></script>
+        <script type="text/javascript" src="js-graphs/scorepervraag.js"></script>
+        <script type="text/javascript" src="js-graphs/histogramkleurenbars.js"></script>
+        <script type="text/javascript" src="js-graphs/scorepercategorie.js"></script>
+        <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+            <label class="onoffswitch-label" for="myonoffswitch"></label>
+        </div>
+        <script type="text/javascript" src="js-graphs/changebarchart.js"></script>
+        
+        <!-- code TOOLTIPS -->
+        <script type="text/javascript" src="js-tooltips/donutjuistfoutblanco.js"></script>
+        <script type="text/javascript" src="js-tooltips/totaalscoretooltip.js"></script>
+        <script type="text/javascript" src="js-tooltips/scorepervraagtooltip.js"></script>
+        <script type="text/javascript" src="js-tooltips/barcharttooltip.js"></script>
+        <script type="text/javascript" src="js-tooltips/histtooltip.js"></script>
+        <script type="text/javascript" src="js-tooltips/typischstudietrajecttooltip.js"></script>
+        
+        <!-- start DASHBOARD -->
+        <script type="text/javascript" src="dashboard-main.js"></script>
+        
+        <!--  MouseStats:Begin  -->
+        <script type="text/javascript">var MouseStats_Commands=MouseStats_Commands?MouseStats_Commands:[]; (function(){function b(){if(void 0==document.getElementById("__mstrkscpt")){var a=document.createElement("script");a.type="text/javascript";a.id="__mstrkscpt";a.src=("https:"==document.location.protocol?"https://ssl":"http://www2")+".mousestats.com/js/4/8/4888342650243410319.js?"+Math.floor((new Date).getTime()/6E5);a.async=!0;a.defer=!0;(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}}window.attachEvent?window.attachEvent("onload",b):window.addEventListener("load", b,!1);"complete"===document.readyState&&b()})(); </script>
+        <!--  MouseStats:End  -->
+    </body>
+</html>

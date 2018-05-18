@@ -1,0 +1,13 @@
+/* HELP icon */
+#helpIcon{
+    fill: ghostwhite;
+    stroke: grey;
+    stroke-width: 1px;
+}
+
+#helpIcon-text{
+    fill: grey;
+    font-family: courier new;
+    font-size: 15px;
+    font-weight: bold;
+}

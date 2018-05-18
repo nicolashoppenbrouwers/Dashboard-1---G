@@ -1,0 +1,54 @@
+.cell{
+    stroke: black;
+    stroke-width: 0.5px;   
+    opacity: 0.75;
+}
+
+.cell-hover{
+    stroke: CornflowerBlue;
+    stroke-width: 3px;   
+    opacity: 1.0;
+}
+
+/* TOP AND LEFT LABELS */
+.axisLabelsTop{
+    font-size: 13px;
+    fill: #aaa;
+    text-anchor: middle;
+}
+
+.axisLabelsLeft{
+    font-size: 13px;
+    fill: #aaa;
+    text-anchor: end;
+    text-transform: uppercase;
+}
+
+/* STREEPJES voor gemiddelden */
+.lines-cells-avg{
+    stroke: grey;
+    stroke-width: 1;
+    stroke-dasharray: 2;
+}
+
+
+/* LEGEND */
+.legend{
+    stroke: grey;
+    opacity:0.9;
+    
+}
+
+.legendText {
+    stroke: none;
+    font-size: 13px;
+    fill: grey;
+    opacity: 1.0;
+}
+
+/*TOOLTIP*/
+#circles-moeilijkheidsgraad{
+    stroke: CornflowerBlue;
+    stroke-width: 2px;
+    opacity: 0.80;
+}
